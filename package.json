@@ -2,9 +2,9 @@
   "name": "most-answered-jurisdiction",
   "version": "1.0.0",
   "description": "Filters records from a MonQcle API (through v4) by matching a question and value. Generates a summary with the name of the jurisdiction that has the most matches.",
-  "main": "most-answered-jurisdiction.js",
+  "main": "index.js",
   "scripts": {
-    "build": "npx pkg ./most-answered-jurisdiction.js"
+    "build": "npx pkg ./index.js"
   },
   "bin": {
     "most-answered-jurisdiction": "./bin/most-answered-jurisdiction.js"
