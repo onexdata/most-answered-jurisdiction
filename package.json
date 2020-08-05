@@ -1,0 +1,31 @@
+{
+  "name": "most-answered-jurisdiction",
+  "version": "1.0.0",
+  "description": "Filters records from a MonQcle API (through v4) by matching a question and value. Generates a summary with the name of the jurisdiction that has the most matches.",
+  "main": "most-answered-jurisdiction.js",
+  "scripts": {
+    "build": "npx pkg ./most-answered-jurisdiction.js"
+  },
+  "bin": {
+    "most-answered-jurisdiction": "./bin/most-answered-jurisdiction.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "most-answered-jurisdiction",
+    "MonQcle",
+    "Jurisdiction",
+    "Legal",
+    "law",
+    "Answers"
+  ],
+  "author": "Nick Steele <njsteele@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "yargs": "^15.4.1"
+  }
+}
